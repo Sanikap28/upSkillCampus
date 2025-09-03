@@ -1,1 +1,617 @@
 
+
+Industrial Internship Report Page 1
+Industrial Internship Report on
+”Banking Information System”
+Prepared by
+[Sanika Patil]
+Executive Summary
+This report provides details of the Industrial Internship provided by upskill Campus and The IoT Academy in
+collaboration with Industrial Partner UniConverge Technologies Pvt Ltd (UCT).
+This internship was focused on a project/problem statement provided by UCT. We had to finish the project
+including the report in 6 weeks’ time.
+My project was Banking Information System.
+This internship gave me a very good opportunity to get exposure to Industrial problems and
+design/implement solution for that. It was an overall great experience to have this internship.
+
+
+Industrial Internship Report Page 2
+TABLE OF CONTENTS
+1 Preface ....................................................................................................................................................3
+2 Introduction ............................................................................................................................................7
+2.1 About UniConverge Technologies Pvt Ltd .........................................................................................7
+2.2 About upskill Campus ......................................................................................................................11
+2.3 Objective..........................................................................................................................................13
+2.4 Reference.........................................................................................................................................13
+2.5 Glossary............................................................................................................................................14
+3 Problem Statement...............................................................................................................................15
+4 Existing and Proposed solution.............................................................................................................16
+5 Proposed Design/ Model ......................................................................................................................18
+5.1 High Level Diagram (if applicable) ...................................................................................................20
+5.2 Low Level Diagram (if applicable)....................................................................................................21
+5.3 Interfaces (if applicable) ..................................................................................................................22
+6 Performance Test..................................................................................................................................23
+6.1 Test Plan/ Test Cases .......................................................................................................................25
+6.2 Test Procedure.................................................................................................................................26
+6.3 Performance Outcome ....................................................................................................................27
+7 My learnings..........................................................................................................................................28
+8 Future work scope ................................................................................................................................30
+
+
+Industrial Internship Report Page 3
+1 Preface
+Summary of the 6 Weeks’ Work
+During the six weeks of internship, I undertook a structured learning program that provided hands-on
+experience in software development. The weekly breakdown was as follows:
+• Week 1: Introduction to the company, its services, workflow, and project management practices.
+• Week 2: Java fundamentals, including syntax, OOP concepts (classes, objects, inheritance,
+polymorphism), and control statements.
+• Week 3: Basics of JDBC, connecting Java applications to relational databases, executing SQL
+queries, and handling results.
+• Week 4: Introduction to full-stack development, including front-end basics (HTML, CSS,
+JavaScript) and connecting front-end with Java back-end using frameworks.
+• Week 5: [Optional: Could include advanced Java, web integration, or practical assignments if
+relevant—if not, this week can be used for project work]
+• Week 6: Development and completion of the Banking Information System project, integrating
+knowledge from Java, JDBC, and full-stack concepts.
+Need of Relevant Internship in Career Development
+• Provides real-world exposure to industry practices, tools, and technologies.
+• Helps in bridging the gap between academic knowledge and practical applications.
+• Develops technical and soft skills, such as problem-solving, teamwork, and communication.
+• Improves career readiness, making students confident for future job opportunities.
+• Encourages innovation and project-based learning, which enhances understanding of core
+concepts.
+.
+Brief About Project / Problem Statement
+Project Name: Banking Information System
+Problem Statement:
+In today’s fast-paced world, banks need a simple and efficient system for managing customer accounts.
+Manual record-keeping is time-consuming and prone to errors. The project aims to develop a console-
+
+
+Industrial Internship Report Page 4
+based banking system that allows users to manage accounts efficiently by performing operations like
+deposit, withdrawal, balance checking, and viewing account details.
+Objectives:
+• To implement a simple banking system using Java and OOP concepts.
+• To provide a user-friendly menu-driven interface for account management.
+• To gain practical experience in developing real-world applications integrating Java and database
+concepts.
+.
+Opportunity Provided by USC/UCT
+• The internship at USC/UCT provided exposure to professional work environments, coding
+standards, and software development methodologies.
+• Encouraged learning through hands-on project work, which improved technical proficiency.
+• Allowed interaction with industry professionals, helping understand career paths and industry
+expectations.
+• Provided access to mentors and resources for self-improvement and problem-solving.
+• Facilitated teamwork and collaboration, preparing students for real-world software projects.
+How Program was planned
+
+
+Industrial Internship Report Page 5
+Learnings and Overall Experience
+During this internship, I gained practical knowledge and hands-on experience in Java programming,
+JDBC, and basic full-stack development. Some key learnings include:
+• Technical Skills:
+o Strengthened understanding of Java fundamentals and object-oriented programming.
+o Learned database connectivity using JDBC and performing CRUD operations.
+o Gained exposure to basic full-stack development, integrating front-end and back-end
+concepts.
+o Developed problem-solving skills through coding challenges and project work.
+• Professional Skills:
+o Understood teamwork and communication in a professional environment.
+o Learned time management, balancing project work with continuous learning.
+o Experienced real-world application of concepts learned in college.
+Overall, the internship was a rewarding experience, enhancing both my technical and soft skills, and
+giving me confidence to handle real-world software development projects.
+Acknowledgments
+ USC/UCT Training Department, for organizing the internship program and providing all necessary
+resources.
+ My College Faculty, for motivating and encouraging me to apply my knowledge practically.
+Message to Juniors and Peers
+To my juniors and peers, I would like to say:
+• Make the most of internships as they provide real-world exposure that cannot be gained in the
+classroom alone.
+• Focus on continuous learning, practicing coding and projects regularly.
+• Don’t hesitate to ask questions and seek help—mentorship can greatly accelerate your learning.
+• Use every project as an opportunity to improve problem-solving skills and creativity.
+
+
+Industrial Internship Report Page 6
+• Remember, discipline, curiosity, and persistence are key to success in the tech industry.
+Internships are stepping stones to a professional career—approach them with dedication and an
+eagerness to learn.
+
+
+Industrial Internship Report Page 7
+2 Introduction
+2.1 About UniConverge Technologies Pvt Ltd
+A company established in 2013 and working in Digital Transformation domain and providing Industrial
+solutions with prime focus on sustainability and RoI.
+For developing its products and solutions it is leveraging various Cutting Edge Technologies e.g. Internet
+of Things (IoT), Cyber Security, Cloud computing (AWS, Azure), Machine Learning, Communication
+Technologies (4G/5G/LoRaWAN), Java Full Stack, Python, Front end etc.
+i. UCT IoT Platform ( )
+UCT Insight is an IOT platform designed for quick deployment of IOT applications on the same time
+providing valuable “insight” for your process/business. It has been built in Java for backend and ReactJS
+for Front end. It has support for MySQL and various NoSql Databases.
+• It enables device connectivity via industry standard IoT protocols - MQTT, CoAP, HTTP, Modbus
+TCP, OPC UA
+• It supports both cloud and on-premises deployments.
+
+
+Industrial Internship Report Page 8
+It has features to
+• Build Your own dashboard
+• Analytics and Reporting
+• Alert and Notification
+• Integration with third party application(Power BI, SAP, ERP)
+• Rule Engine
+
+
+Industrial Internship Report Page 9
+ii. Smart Factory Platform ( )
+Factory watch is a platform for smart factory needs.
+It provides Users/ Factory
+• with a scalable solution for their Production and asset monitoring
+• OEE and predictive maintenance solution scaling up to digital twin for your assets.
+• to unleased the true potential of the data that their machines are generating and helps to
+identify the KPIs and also improve them.
+• A modular architecture that allows users to choose the service that they what to start and then
+can scale to more complex solutions as per their demands.
+Its unique SaaS model helps users to save time, cost and money.
+
+
+Industrial Internship Report Page 10
+
+
+Industrial Internship Report Page 11
+iii. based Solution
+UCT is one of the early adopters of LoRAWAN teschnology and providing solution in Agritech, Smart
+cities, Industrial Monitoring, Smart Street Light, Smart Water/ Gas/ Electricity metering solutions etc.
+iv. Predictive Maintenance
+UCT is providing Industrial Machine health monitoring and Predictive maintenance solution leveraging
+Embedded system, Industrial IoT and Machine Learning Technologies by finding Remaining useful life
+time of various Machines used in production process.
+2.2 About upskill Campus (USC)
+upskill Campus along with The IoT Academy and in association with Uniconverge technologies
+has facilitated the smooth execution of the complete internship process.
+USC is a career development platform that delivers personalized executive coaching in a
+more affordable, scalable and measurable way.
+
+
+Industrial Internship Report Page 12
+Seeing need of upskilling in self
+paced manner along-with
+additional support services e.g.
+Internship, projects, interaction
+with Industry experts, Career
+growth Services
+https://www.upskillcampus.com/
+upSkill Campus aiming
+to upskill 1 million
+learners in next 5 year
+
+
+Industrial Internship Report Page 13
+2.3 The IoT Academy
+The IoT academy is EdTech Division of UCT that is running long executive certification programs in
+collaboration with EICT Academy, IITK, IITR and IITG in multiple domains.
+2.4 Objectives of this Internship program
+The objective for this internship program was to
+☛ get practical experience of working in the industry.
+☛ to solve real world problems.
+☛ to have improved job prospects.
+☛ to have Improved understanding of our field and its applications.
+☛ to have Personal growth like better communication and problem solving.
+2.5 Reference
+[1] Java: The Complete Reference by Herbert Schildt – For learning Java fundamentals and OOP
+concepts.
+[2] Oracle Java Documentation – For Java syntax, classes, methods, and JDBC examples.
+[3] W3Schools / TutorialsPoint – For learning basic full-stack development, HTML, CSS, JavaScript, and
+database connectivity.
+
+
+Industrial Internship Report Page 14
+2.6 Glossary
+Terms Acronym
+OOP A programming paradigm based on the concept of objects containing data and
+methods.
+JDBC A Java API that allows Java programs to connect and interact with relational
+databases.
+Front-end The part of a web application that interacts with the user
+Full-stack
+Development
+Development that involves both front-end and back-end parts of an application.
+CRUD
+Operations
+Refers to the four basic database operations—Create, Read, Update, Delete.
+IDE A software application providing comprehensive facilities to programmers for
+software development
+Exception
+Handling
+The process of responding to runtime errors in a program to prevent crashes.
+
+
+Industrial Internship Report Page 15
+3 Problem Statement
+Project Name: Banking Information System
+Problem Statement:
+In the current banking environment, managing multiple accounts manually or through non-integrated
+systems can be time-consuming, error-prone, and inefficient. Customers often face difficulties in
+performing basic operations such as deposits, withdrawals, and checking account balances quickly.
+The objective of this project is to develop a simple, console-based Banking Information System
+that allows users to:
+• Create a new bank account by entering account holder details and initial balance.
+• Perform transactions such as deposit and withdrawal with proper validation.
+• Check account balance instantly.
+• Display account information, including account holder name, account number, and
+balance.
+The system is designed to improve efficiency, minimize errors, and provide an easy-to-use
+interface for basic banking operations. It also serves as a practical demonstration of the application
+of Java programming, object-oriented concepts, and database connectivity skills learned
+during the internship.
+Key Objectives of the Problem:
+1. Implement a user-friendly menu-driven system to manage bank accounts.
+2. Apply OOP concepts like classes, objects, methods, and encapsulation.
+3. Incorporate basic input validation and exception handling to ensure accurate operations.
+4. Demonstrate the integration of Java with database operations (JDBC) in practical
+scenarios.
+
+
+Industrial Internship Report Page 16
+4 Existing and Proposed solution
+Summary of Existing Solutions and Limitations
+Several banking software solutions and digital banking systems exist today, including:
+1. Core Banking Software – Used by banks to manage accounts, deposits, withdrawals, and
+transactions centrally.
+Limitations:
+o Often complex and difficult for beginners or small-scale use.
+o Requires extensive training to operate.
+o Not suitable for learning or educational purposes.
+2. Basic Banking Applications / Mobile Banking Apps – Allow users to perform simple transactions
+via mobile devices.
+Limitations:
+o Dependent on internet connectivity.
+o Limited scope for understanding the backend logic and database operations.
+o Users cannot see or modify the underlying implementation.
+3. Small Java / Academic Projects – Simple console-based banking applications created for learning
+purposes.
+Limitations:
+o Often incomplete or lack proper exception handling.
+o May not include all basic functionalities such as deposit, withdrawal, balance check, and
+account info in one application.
+o User interface and user experience are minimal or not intuitive.
+Proposed Solution
+The proposed solution is a console-based Banking Information System developed in Java, designed to
+address the limitations of existing simple solutions:
+• Provides a menu-driven interface for easy navigation and use.
+• Implements all basic banking operations: deposit, withdrawal, balance check, and account
+information display.
+
+
+Industrial Internship Report Page 17
+• Includes input validation and exception handling to prevent errors during transactions.
+• Designed as a learning-friendly project that demonstrates Java OOP concepts, JDBC basics, and
+project integration.
+Value Addition
+The project adds value in several ways:
+1. Educational Value:
+o Serves as a practical example for students to learn Java programming, object-oriented
+concepts, and JDBC integration.
+2. Efficiency:
+o Reduces manual calculations and errors for simple account management tasks.
+3. User-Friendly:
+o Provides a simple and interactive menu-driven system, making it easy for beginners to
+operate.
+4. Extendibility:
+o Can be further enhanced into a full-fledged banking application with GUI, database
+integration, and advanced features like transaction history or report generation.
+5. Hands-On Experience:
+o Gives the intern practical exposure to real-world programming challenges, including
+input validation, modular code design, and user interaction.
+4.1 submission (Github link)
+https://github.com/Sanikap28/upSkillCampus/tree/main
+4.2 Report submission (Github link) :
+https://github.com/Sanikap28/upSkillCampus/blob/main/Report
+
+
+Industrial Internship Report Page 18
+5 . Proposed Design/ Model
+The Banking Information System is designed as a menu-driven console application using Java, following
+an object-oriented approach. The design ensures modularity, simplicity, and scalability. The system can
+be divided into three main stages: start, intermediate, and final outcome.
+1) Start (Initialization Stage)
+• Objective: Set up the system and gather necessary inputs from the user.
+• Actions:
+1. Prompt the user to enter account holder details: name, account number, and initial
+balance.
+2. Initialize a BankAccount object with the provided details.
+3. Display the main menu for further operations: deposit, withdrawal, check balance,
+display account info, or exit.
+Design Consideration: Input validation is applied to ensure that account number and balance are valid.
+2) Intermediate Stage (Transaction Stage)
+• Objective: Handle all banking operations performed by the user.
+• Actions:
+1. Deposit Operation: Add a valid amount to the account balance.
+2. Withdrawal Operation: Deduct the amount if sufficient balance is available; else display
+an error.
+3. Balance Check: Display the current account balance.
+4. Display Account Info: Show all details of the account including account holder name,
+account number, and balance.
+5. Implement exception handling to prevent invalid inputs and runtime errors.
+Design Consideration: Each operation is implemented as a separate method within the BankAccount
+class to ensure modularity and reusability.
+
+
+Industrial Internship Report Page 19
+3) Final Outcome (Result Stage)
+• Objective: Ensure successful completion of operations and provide feedback to the user.
+• Actions:
+1. Display results of the operations, e.g., updated balance after deposit or withdrawal.
+2. Provide option to return to the main menu for further actions.
+3. Exit the application safely when the user chooses to terminate the session.
+Design Consideration:
+• The system maintains a continuous loop for the menu until the user exits.
+• The final design ensures ease of use, error-free operation, and clear feedback for all actions.
+
+
+
+Industrial Internship Report Page 20
+5.1 High Level Diagram (if applicable)
+
+Figure 1: HIGH LEVEL DIAGRAM OF THE SYSTEM
+
+
+Industrial Internship Report Page 21
+5.2 Low Level Diagram (if applicable)
+
+
+Industrial Internship Report Page 22
+5.3 Interfaces (if applicable)
+User Interfaces
+The system uses a menu-driven console interface where the user interacts with the application.
+Menu Options (Interface):
+1. Deposit Money – Prompts user to enter the amount to deposit.
+2. Withdraw Money – Prompts user to enter the amount to withdraw.
+3. Check Balance – Displays the current account balance.
+4. Display Account Info – Shows account holder details and balance.
+5. Exit – Terminates the program safely.
+
+
+
+Industrial Internship Report Page 23
+6 Performance Test
+Constraints, Industrial Relevance, and Testing
+6.1 Industrial Relevance
+While this project was implemented as a console-based Java application for academic purposes, the
+design reflects real-world industry practices in several ways:
+• Uses Object-Oriented Programming (OOP) principles, which are widely applied in professional
+software development.
+• Implements modular design, separating data handling (BankAccount class) from user interaction
+(menu interface), mimicking real-world layered architecture.
+• Incorporates input validation and exception handling, critical for error-free software in
+production environments.
+• Provides a scalable design, which can be extended to multiple accounts, transaction history, or
+integration with databases and web front-end.
+This shows that the project is not just academic but a prototype of practical banking systems.
+6.2 Identified Constraints
+Even for a simple console-based application, several constraints were considered:
+1. Memory Usage
+o Constraint: Limited memory availability for storing multiple account objects in RAM.
+o Handling: The program creates objects dynamically and releases memory when objects
+are no longer needed.
+o Testing: Multiple accounts were created sequentially; memory usage remained minimal,
+suitable for small-scale use.
+2. Processing Speed (MIPS / Operations per Second)
+o Constraint: Fast response needed for deposits, withdrawals, and balance checks.
+o Handling: Efficient algorithms were implemented; no unnecessary loops or calculations.
+
+
+Industrial Internship Report Page 24
+o Testing: Operations were executed almost instantly for all test cases, confirming
+responsiveness.
+3. Accuracy
+o Constraint: Transactions must reflect correct account balances after each operation.
+o Handling: Input validation and precise arithmetic operations were used.
+o Testing: Multiple deposit and withdrawal transactions were tested; final balances
+matched expected values in all cases.
+4. Durability / Reliability
+o Constraint: The system should not crash on invalid inputs.
+o Handling: Exception handling with try-catch blocks and input validation.
+o Testing: Tested invalid inputs (negative deposit, withdrawal exceeding balance, nonnumeric input) – the system handled all cases gracefully without crashing.
+5. Scalability / Extensibility
+o Constraint: Should support multiple accounts and future feature additions.
+o Handling: Modular class design allows new methods or account features to be added
+without major restructuring.
+6.3 Recommendations for Industrial Implementation
+Although the current project is a prototype, in a real banking environment, additional considerations
+would be required:
+1. Persistent Storage – Integrate a database (e.g., MySQL, Oracle) to store account information
+permanently.
+2. Concurrency Handling – Implement multi-threading to allow multiple users to perform
+transactions simultaneously.
+3. Security Constraints – Incorporate authentication, encryption, and secure transaction handling.
+4. Performance Optimization – Optimize memory usage and transaction speed for large-scale
+deployment.
+
+
+Industrial Internship Report Page 25
+5. Error Logging & Monitoring – Maintain logs for all operations to track system behavior and
+failures.
+6.4 Test Results Around Constraints
+Constraint Test Scenario Result/Observation
+Memory Usage Created 10 account objects sequentially
+Memory usage minimal; no performance
+drop
+Processing
+Speed
+Deposit/Withdraw/Check operations Operations completed instantly
+Accuracy Multiple deposits & withdrawals Final balances matched expected results
+Reliability
+Invalid inputs (negative, excess
+withdrawal)
+System handled gracefully, no crash
+Scalability Adding new accounts Successfully handled; design is modular
+6.1 Test Plan/ Test Cases
+The test plan was designed to validate all functionalities of the Banking Information System,
+ensuring that the system performs as expected and handles invalid inputs gracefully.
+Test Cases:
+Test
+Case ID
+Feature Tested Input Data Expected Output Status
+TC01
+Account
+Creation
+Name: Sanika, Acc No:
+12345, Balance: 5000
+Account created successfully, object
+initialized with correct data
+Passed
+TC02 Deposit Money Amount: 2000
+Balance updated correctly; Deposited:
+2000 displayed
+Passed
+TC03 Withdraw Amount: 1000 Balance updated correctly; Withdrawn: Passed
+
+
+Industrial Internship Report Page 26
+Test
+Case ID
+Feature Tested Input Data Expected Output Status
+Money 1000 displayed
+TC04
+Withdraw
+Money
+Amount: 7000 (exceeds
+balance)
+Insufficient balance message displayed Passed
+TC05 Check Balance N/A Correct balance displayed Passed
+TC06
+Display Account
+Info
+N/A Account Holder, Account Number,
+Balance displayed
+Passed
+TC07 Invalid Deposit Amount: -500
+Invalid deposit amount message
+displayed
+Passed
+TC08 Invalid Input
+Non-numeric input for
+amount
+Error handled gracefully; prompts again Passed
+6.2 Test Procedure
+The test procedure followed these steps:
+1. Initialization:
+o Start the program and create a new BankAccount object with valid data.
+2. Function Testing:
+o Perform each banking operation from the menu:
+▪ Deposit
+▪ Withdraw
+▪ Check Balance
+▪ Display Account Information
+3. Invalid Input Handling:
+o Test negative amounts for deposit/withdrawal.
+
+
+Industrial Internship Report Page 27
+o Enter amounts exceeding current balance.
+o Enter non-numeric inputs to verify exception handling.
+4. Repetition & Loop Testing:
+o Test repeated operations in succession to ensure the program handles multiple
+transactions without errors.
+5. Exit Procedure:
+o Select the exit option to ensure program terminates gracefully.
+6.3 Performance Outcome
+Observations from Testing:
+• Accuracy: All transactions (deposit, withdrawal, balance checks) returned correct results.
+• Reliability: Program handled invalid inputs without crashing, showing proper error messages.
+• Responsiveness: All operations executed instantly, even with multiple sequential transactions.
+• Scalability: Successfully created and managed multiple accounts in memory; design allows future
+extension to multiple concurrent users.
+• Exception Handling: Invalid or negative inputs were correctly rejected, maintaining system
+integrity.
+
+
+Industrial Internship Report Page 28
+7 My learnings
+During the six-week internship, I gained a comprehensive understanding of both technical skills and
+professional practices. This internship has been a valuable opportunity to bridge the gap between
+classroom learning and real-world application.
+1. Technical Learnings
+1. Java Programming and OOP Concepts:
+o Strengthened understanding of classes, objects, constructors, methods, inheritance, and
+polymorphism.
+o Applied these concepts in creating a functional Banking Information System project.
+2. Database Connectivity (JDBC):
+o Learned how to connect Java applications with relational databases.
+o Practiced executing queries, handling ResultSet, and managing transactions.
+3. Full-Stack Development Basics:
+o Gained exposure to HTML, CSS, and JavaScript for front-end development.
+o Understood how back-end logic interacts with user interfaces.
+4. Project Implementation:
+o Designed and implemented a modular, menu-driven Banking System.
+o Developed skills in input validation, exception handling, and code modularity.
+5. Testing and Quality Assurance:
+o Learned to prepare test plans, execute test cases, and validate results.
+o Understood the importance of accuracy, reliability, and performance in software
+development.
+2. Professional and Career Learnings
+3. Problem-Solving Skills:
+
+
+Industrial Internship Report Page 29
+o Gained the ability to analyze requirements, identify constraints, and develop efficient
+solutions.
+4. Time Management and Discipline:
+o Managed learning, project work, and daily responsibilities effectively, improving
+productivity.
+5. Understanding Industry Practices:
+o Experienced structured workflow, modular design, and documentation practices used
+in real-world software development.
+6. Confidence in Real-World Application:
+o Successfully developed a project that could be extended to a real banking application,
+building confidence to work on professional projects.
+7. Career Growth Implications
+• The technical and professional skills gained will help me in future software development roles,
+particularly in Java, database management, and full-stack development.
+• Exposure to real-world problem-solving and testing procedures will improve my efficiency and
+reliability in professional projects.
+• This internship has given me a strong foundation for working in IT industries, preparing me for
+larger projects and team collaboration.
+
+
+Industrial Internship Report Page 30
+8 Future work scope
+Although the current Banking Information System project successfully implements basic banking
+operations, there are several enhancements and extensions that can be considered for future
+development:
+• 1. Persistent Database Integration
+• Currently, the application stores account data in memory (RAM) only.
+• Future work can integrate a database system (MySQL, Oracle, or PostgreSQL) to persist account
+information and maintain transaction history even after the program terminates.
+• 2. Graphical User Interface (GUI)
+• The current system uses a console-based interface.
+• A GUI using JavaFX or Swing can improve user interaction and make the system more userfriendly.
+• 3. Multi-User and Concurrency Support
+• Implementing multi-threading or client-server architecture can allow multiple users to perform
+transactions simultaneously.
+• This will make the system suitable for real-time banking operations.
+• 4. Transaction History and Reporting
+• Adding a feature to maintain transaction logs and generate reports will enhance functionality.
+• Users can view past deposits, withdrawals, and account activity.
+• 5. Security Enhancements
+• Incorporating authentication, password protection, and data encryption will improve security.
+• This will make the system closer to industry-grade banking software.
+• 6. Advanced Features
+• Integration with online payment gateways, automatic interest calculations, and loan
+management modules.
+• Implementation of notifications via email or SMS for account activities.
+
+
+Industrial Internship Report Page 31
+• 7. Web or Mobile Application Development
+• Converting the system into a web-based or mobile application for wider accessibility.
+• Can include APIs for interacting with other financial systems.
